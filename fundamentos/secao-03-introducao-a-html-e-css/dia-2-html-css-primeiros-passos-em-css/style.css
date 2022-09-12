@@ -1,0 +1,44 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 65px;
+  color: orange;
+  text-align: center;
+}
+
+body {
+  font-size: 16px;
+}
+
+p {
+  font-weight: 600px;
+}
+
+p {
+  font-size: 3em;
+}
+
+.list-style {
+  line-height: 30px;
+  background-color: rgba(0, 255, 13, 0.295);
+}
+
+p, ul {
+font-weight: bold;
+text-align: center;
+}
+
+.amarelo {
+  color: red;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.vermelho {
+  color: yellow;
+  background-color: red;
+}
+
+.marrom {
+  background-color: brown;
+  color: black;
+}
