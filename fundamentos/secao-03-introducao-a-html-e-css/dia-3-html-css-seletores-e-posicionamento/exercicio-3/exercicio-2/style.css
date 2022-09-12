@@ -1,0 +1,60 @@
+h1, p {
+  text-align: center;
+}
+
+div:hover {
+  border: 6px solid black;
+}
+
+div:nth-of-type(2n+1) {
+  color: red;
+}
+
+div:nth-of-type(1) {
+  color: aqua;
+}
+
+div:nth-of-type(2) {
+  color: red;
+}
+
+div:nth-of-type(3) {
+  color: blue;
+  font-size: 50px;
+}
+
+div:nth-of-type(4) {
+  color: yellow;
+}
+
+div:nth-of-type(5) {
+  color: black;
+}
+
+div:nth-of-type(1) > h3{
+  text-align: left;
+}
+
+div:nth-of-type(2) > h3{
+  font-size: 10px;
+}
+
+div:nth-of-type(3) > h3{
+  font-weight: normal;
+}
+
+div:nth-of-type(4) > h3{
+  color: blueviolet;
+}
+
+div:nth-of-type(5) > h3{
+  font-style: italic;
+}
+
+div:nth-of-type(2n+1) > h3{
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+}
