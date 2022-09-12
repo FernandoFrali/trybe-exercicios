@@ -25,6 +25,7 @@ p {
 p, ul {
 font-weight: bold;
 text-align: center;
+text-decoration: none;
 }
 
 .amarelo {
