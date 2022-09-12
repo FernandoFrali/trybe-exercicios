@@ -1,0 +1,22 @@
+h1, p {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 60px;
+
+}
+
+li:hover {
+  background-color: red;
+}
+
+li:active {
+  font-family: arial;
+  color: blue;
+}
+
+ol, ul {
+  list-style: none;
+}
