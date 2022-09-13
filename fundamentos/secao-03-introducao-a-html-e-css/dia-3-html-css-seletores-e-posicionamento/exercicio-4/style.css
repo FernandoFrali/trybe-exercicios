@@ -1,0 +1,65 @@
+ol li:nth-of-type(2n) {
+  color: green;
+}
+
+ol {
+  background-color: yellow;
+}
+
+ol li:nth-of-type(2n+1) {
+  text-transform: uppercase;
+}
+
+h1, h3 {
+  color: red;
+}
+
+h1, h3 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+
+.programacao :nth-of-type(-n + 3) {
+  color: blue;
+}
+
+.pink {
+ background-color: pink;
+}
+
+
+/* Configuração Hover */
+
+.stack:hover {
+  color: orange;
+  font-weight: bold;
+}
+
+.w3s:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.mdn:hover {
+  color: black ;
+  font-weight: bold;
+}
+
+.devdoc:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+.trybe:hover {
+  color: greenyellow;
+  font-weight: bold;
+}
