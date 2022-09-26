@@ -1,8 +1,20 @@
-let word = "banana";
-let invert = "";
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+let result = array[0];
+let resultDois = array[0];
 
-for (let index = 0; index < word.length; index += 1) {
-  invert += word[word.length - 1 - index];
+for (let index = 0; index < array.length; index += 1) {
+
+  if (array[index].length > result.length) {
+    result = array[index];
+  }
 }
 
-console.log(invert);
+
+for (let index = 0; index < array.length; index += 1) {
+  if (array[index].length < resultDois.length) {
+    resultDois = array[index];
+  }
+}
+
+console.log(result);
+console.log(resultDois);
