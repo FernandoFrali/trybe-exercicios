@@ -13,26 +13,37 @@
     <form action="" method="get">
       <label for="textinho">Digite um texto:</label>
       <input type="text" placeholder="Digite algo" required name="testzada" id="textinho">
-      <button type="submit">send</button>
       <br>
-      <label for="checkzin"><input type="checkbox" name="futebor" value="check" id="checkzin" checked required>Checked
+      <label for="checkzin"><input type="checkbox" name="check" value="check" id="checkzin" checked required>Checked
+      </label>
+      <label for="checkzinDois"><input type="checkbox" name="check" value="uncheck" id="checkzinDois">Unchecked
       </label>
       <br>
-      <label for="radiozin"><input type="radio" name="radiozada" value="radio1" id="radiozin" required>Radio1 </label>
-      <label for="radiozin2"><input type="radio" name="radiozada" value="radio2" id="radiozin2">Radio2 </label>
+      <label for="radiozin">Selecione um:
+        <input type="radio" name="radiozada" value="radio1" id="radiozin" required>Azul</label>
+      <label for="radiozin2"><input type="radio" name="radiozada" value="radio2" id="radiozin2">Vermelho</label>
       <br>
-      <select name="estados" id="dropdown-estado">
-        <option value="sp">São Paulo</option>
-        <option value="ba">Bahia</option>
-        <option value="mg">Minas Gerais</option>
-      </select>
+      <label for="">Seleciona seu estado:
+        <select name="estados" id="dropdown-estado">
+          <option value="sp">São Paulo</option>
+          <option value="ba">Bahia</option>
+          <option value="mg">Minas Gerais</option>
+        </select>
+      </label>
       <br>
-      <input type="email" name="" id="">
+      <label for="">Digite seu email:
+        <input type="email" name="" id="">
+      </label>
       <br>
-      <input type="password" name="senha" placeholder="Type your password">
+      <label for="">Digite sua senha:
+        <input type="password" name="senha" placeholder="Type your password">
+      </label>
       <br>
+      <p>Envie sua foto:</p>
       <input type="file">
-
+      <br>
+      <p></p>
+      <button type="submit">send</button>
     </form>
     </form>
   </header>
