@@ -1,0 +1,17 @@
+#textinho:focus {
+  border: 3px dashed rgba(0, 255, 255, 0.493);
+  outline: 2px solid cyan;
+}
+
+#textinho {
+  width: 300px;
+  background-color: greenyellow;
+}
+
+button {
+  
+  background-color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
