@@ -1,17 +1,27 @@
 #textinho:focus {
-  border: 3px dashed rgba(0, 255, 255, 0.493);
-  outline: 2px solid cyan;
-}
-
-#textinho {
-  width: 300px;
-  background-color: greenyellow;
-}
-
-button {
+  border: 2px solid rgba(0, 225, 255, 0.493);
+  outline: 2px solid rgb(0, 110, 255);
+  background-color: rgba(57, 151, 238, 0.315);
+  color: blueviolet;
   
-  background-color: green;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-transform: uppercase;
-  color: white;
+}
+
+
+hr {
+  opacity: 0;
+}
+
+.form-header {
+  padding: 50px;
+  background-color: rgb(245, 245, 245);
+  margin: 40px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: 2px solid rgb(235, 235, 235);
+}
+
+.input-group-text {
+ text-align: start;
+ width: 50%;
 }

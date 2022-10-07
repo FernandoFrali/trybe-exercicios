@@ -3,50 +3,92 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 
-<body>
-  <header>
+<header class="form-header">
+  <div class="container text-center">
     <h1>Forms</h1>
-    <form action="" method="get">
-      <label for="textinho">Digite um texto:</label>
-      <input type="text" placeholder="Digite algo" required name="testzada" id="textinho">
-      <br>
-      <label for="checkzin"><input type="checkbox" name="check" value="check" id="checkzin" checked required>Checked
-      </label>
-      <label for="checkzinDois"><input type="checkbox" name="check" value="uncheck" id="checkzinDois">Unchecked
-      </label>
-      <br>
-      <label for="radiozin">Selecione um:
-        <input type="radio" name="radiozada" value="radio1" id="radiozin" required>Azul</label>
-      <label for="radiozin2"><input type="radio" name="radiozada" value="radio2" id="radiozin2">Vermelho</label>
-      <br>
-      <label for="">Seleciona seu estado:
-        <select name="estados" id="dropdown-estado">
-          <option value="sp">São Paulo</option>
-          <option value="ba">Bahia</option>
-          <option value="mg">Minas Gerais</option>
-        </select>
-      </label>
-      <br>
-      <label for="">Digite seu email:
-        <input type="email" name="" id="">
-      </label>
-      <br>
-      <label for="">Digite sua senha:
-        <input type="password" name="senha" placeholder="Type your password">
-      </label>
-      <br>
-      <p>Envie sua foto:</p>
-      <input type="file">
-      <br>
-      <p></p>
-      <button type="submit">send</button>
-    </form>
-    </form>
-  </header>
+    <p>Preencha o formulário abaixo:
+    </p>
+  </div>
+</header>
+
+<body>
+  <div class="col">
+    <div class="container text-center chamaNoXesque">
+      <div class="row align-items-start">
+        <div class="col">
+          <form action="" method="get" class="form-data">
+            <div class="col">
+              <label class="form-label" for="textinho">Digite um texto:</label>
+            </div>
+            <div class="col">
+              <input autocomplete="off" type="text" placeholder="Digite algo" required name="testzada" id="textinho">
+            </div>
+        </div>
+        <hr>
+        <div class="col">
+          <label class="form-label" for="checkzin"><input type="checkbox" name="check" value="check" id="checkzin" checked required>Checked
+          </label>
+          <div class="col">
+            <label class="form-label" for="checkzinDois"><input type="checkbox" name="check" value="uncheck" id="checkzinDois">Unchecked
+            </label>
+          </div>
+        </div>
+        <label class="form-label" for="radiozin">Selecione um:
+          <br>
+          <input type="radio" name="radiozada" value="radio1" id="radiozin" required>Azul</label>
+        <label for="radiozin2"><input type="radio" name="radiozada" value="radio2" id="radiozin2">Vermelho</label>
+        <hr>
+        <div class="col">
+          <label class="form-label" for="">Selecione seu estado:
+            <select class="form-select" name="estados" id="dropdown-estado">
+              <option value="selectOne">Selecione um:</option>
+              <option value="sp">São Paulo</option>
+              <option value="ba">Bahia</option>
+              <option value="mg">Minas Gerais</option>
+            </select>
+        </div>
+        </label>
+        <hr>
+        <div class="col">
+          <label class="form-label" for="">Digite seu email:
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" name="email" required>
+              <select class="input-group-text" id="basic-addon2" name="email" required>
+                <option value="@gmail.com">@gmail.com</option>
+                <option value="@outlook.com">@outlook.com</option>
+                <option value="@hotmail.com">@hotmail.com</option>
+                <option value=">@hotmail.com.br">@hotmail.com.br</option>
+                <option value="@yahoo.com">@yahoo.com</option>
+              </select>
+            </div>
+          </label>
+        </div>
+        <hr>
+        <div class="col">
+          <label class="form-label" for="">Digite sua senha:
+            <br>
+            <input type="password" name="senha" placeholder="Type your password" required>
+          </label>
+        </div>
+        <hr>
+        <div class="col">
+          <p>Envie sua foto:</p>
+          <input type="file">
+        </div>
+        <hr>
+        <div class="col">
+          <button type="submit">Send</button>
+        </div>
+        </form>
+        </form>
+      </div>
+    </div>
 </body>
 
 </html>
