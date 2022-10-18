@@ -4,6 +4,5 @@ const substituaX = (name) => {
     const mensagem = `Tryber ${name} aqui!`;
     return mensagem;
   }
-
-}
+};
 console.log(substituaX("Bebeto"));
