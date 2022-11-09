@@ -1,0 +1,45 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#gera {
+  border: 1px solid green;
+  background-color: bisque;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 700px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  height: 800px;
+  width: 800px;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: rgb(153, 117, 72);
+}
+
+button {
+  font-size: 30px;
+  border: 1px solid rgb(207, 123, 20);
+  border-radius: 4px;
+  background-color: antiquewhite;
+}
+
+button:hover {
+  background-color: rgb(235, 208, 176);
+}
+
+h2 {
+  font-size: 40px;
+  font-family: arial;
+}
+
+h2:hover {
+  color: rgb(70, 70, 172);
+}
