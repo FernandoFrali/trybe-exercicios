@@ -2,11 +2,12 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
+  background-color: rgba(0, 0, 0, 0.789);
 }
 
 #gera {
-  border: 1px solid green;
-  background-color: bisque;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.499);
   display: grid;
   gap: 15px;
   grid-template-columns: 700px;
@@ -21,23 +22,29 @@ body {
 h1 {
   font-size: 70px;
   text-align: center;
-  color: rgb(153, 117, 72);
+  text-decoration: double;
+  color: rgba(255, 255, 255, 0.637);
 }
 
 button {
-  font-size: 30px;
+  padding: 10px;
+  font-size: 25px;
   border: 1px solid rgb(207, 123, 20);
   border-radius: 4px;
-  background-color: antiquewhite;
+  background-color: black;
+  color: white;
 }
 
 button:hover {
-  background-color: rgb(235, 208, 176);
+  background-color: rgba(0, 0, 0, 0.027);
+  color: rgb(207, 123, 20);
+  cursor: pointer;
 }
 
 h2 {
   font-size: 40px;
   font-family: arial;
+  color: rgba(255, 255, 255, 0.637);
 }
 
 h2:hover {

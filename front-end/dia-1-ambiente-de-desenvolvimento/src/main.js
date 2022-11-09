@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import './style.css';
 
 const btn = document.querySelector('button');
 btn.addEventListener('click', changeN);
