@@ -1,0 +1,15 @@
+.HelloWorld {
+  color: blueviolet;
+}
+
+.Divzada {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.ulzada {
+  align-self: start;
+  list-style: none;
+  color: purple;
+}
