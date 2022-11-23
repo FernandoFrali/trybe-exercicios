@@ -1,0 +1,12 @@
+li {
+  color: black;
+  list-style: none;
+}
+
+body {
+  text-align: center;
+}
+
+.vendido {
+  color: red;
+}
