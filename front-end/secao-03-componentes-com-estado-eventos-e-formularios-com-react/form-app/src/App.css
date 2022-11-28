@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  width: 20%;
+}
+
+span {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+}
